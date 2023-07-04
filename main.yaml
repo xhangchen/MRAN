@@ -1,0 +1,17 @@
+batch_size: 4
+num_workers: 8
+learning_rate1: 0.0001
+learning_rate2: 0.0001
+Lambda: 5
+
+num_epoch: 1
+CUDA_VISIBLE_DEVICES: 2,3
+
+resume: 0
+
+split_id: 0
+split_dir: 'csv/example/split/111'
+output_dir: 'example'
+
+#split_dir: 'csv/LUSC/split/212'
+#output_dir: 'LUSC_0'
